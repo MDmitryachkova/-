@@ -1,2 +1,37 @@
-public class Kotik { 
-  }
+public class Kotik {
+    public int eat;
+    public String corm;
+
+    public void play(){
+        System.out.print ("Kotik play");
+    }
+
+    public void sleep(){
+        System.out.print ("Kotik zzzz");
+    }
+
+    public void chaseMouse(){
+        System.out.print ("Kotik have mouse");
+    }
+
+    public void meow(){
+        System.out.print ("Kotik meow");
+    }
+
+    public void attack(){
+                System.out.print ("Kotik kus'");
+    }
+
+    public void lookInTheCorner(){
+        System.out.print ("Kotik sees ghost'");
+    }
+
+    public void liveAnotherDay( ){
+        int day = 24;
+        while (day>0){
+            System.out.println("day"+1);
+            day--;
+        }
+
+    }
+}
